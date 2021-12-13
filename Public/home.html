@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Login Screen</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login-header">LOGIN</div>
+            <div class="login-panel">
+                <div class="login-body">
+                    <div class="login-fields">
+                        <label for="username-field">Username</label>
+                        <input type="text" name="username" id="username-field" autocapitalize="none" autocorrect="off" autocomplete="username" autofocus="autofocus">
+                        <div class="position-relative">
+                            <label for="password-field">Password</label>
+                            <input type="password" name="password" id="password-field" autocapitalize="none" autocomplete="current-password">
+                            <button type="button" class="btn">Login</button>
+                            <a href="/reset" class="forgot-password">Forgot password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <p class="no-acct-register">Need an account? <a class="register-redirect" href="/register">Register Here</a>.</p>
+    </div>
+</body>
+</html>
