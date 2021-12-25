@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/register.css" />
+    <link rel="shortcut icon" href="#" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Register</title>
 </head>
@@ -14,27 +15,32 @@
             <a href="/">Sign in →</a>
         </div>
     </div>
-    <div class="register">
-        <div class="header">REGISTER</div>
-            <div class="register-panel">
-                <div class="register-body">
-                    <div class="register-fields">
-                        <label for="fname">First Name</label>
-                        <input type="text" name="fname-field" id="fname" autocapitalize="none" autofocus="autofocus" autocorrect="off">
-                        <label for="lname">Last Name</label>
-                        <input type="text" name="lname-field" id="lname" autocapitalize="none" autocorrect="off">
-                        <label for="username">Username</label>
-                        <input type="text" name="username-field" id="username" autocapitalize="none" autocorrect="off" autocomplete="username">
-                        <label for="email">E-Mail</label>
-                        <input type="email" name="email-field" id="email" autocapitalize="none" autocorrect="off" autocomplete="email">
-                        <label for="pass1">New Password</label>
-                        <input type="password" name="new-pass" id="pass1">
-                        <label for="pass2">Re-type Password</label>
-                        <input type="password" name="re-pass" id="pass2">
-                        <button type="button" class="btn">Register</button>
+    <div class="main-application">
+        <div class="register">
+            <div class="header">REGISTER</div>
+                <div class="register-panel">
+                    <div class="register-body">
+                        <div class="register-fields">
+                            <label for="fname">First Name*</label>
+                            <input type="text" name="fname-field" id="fname" autocapitalize="none" autofocus="autofocus" autocorrect="off">
+                            <label for="lname">Last Name*</label>
+                            <input type="text" name="lname-field" id="lname" autocapitalize="none" autocorrect="off">
+                            <label for="username">Username*</label>
+                            <input type="text" name="username-field" id="username" autocapitalize="none" autocorrect="off" autocomplete="username">
+                            <label for="email">E-Mail*</label>
+                            <input type="email" name="email-field" id="email" autocapitalize="none" autocorrect="off" autocomplete="email">
+                            <label for="pass1">New Password*</label>
+                            <input type="password" name="new-pass" id="pass1">
+                            <label for="pass2">Re-type Password*</label>
+                            <input type="password" name="re-pass" id="pass2">
+                            <button type="submit" class="btn">Register</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="sub-text">
+                    * = Required Field
+                </div>
+        </div>
     </div>
 </body>
 </html>

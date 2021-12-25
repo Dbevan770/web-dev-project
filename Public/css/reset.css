@@ -12,6 +12,9 @@ body {
     align-items: center;
     background-color: #0d1117;
 }
+* ::before ::after {
+    box-sizing: border-box;
+}
 .password-reset {
     width: 340px;
     margin: 0 auto !important;

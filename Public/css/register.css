@@ -12,9 +12,13 @@ body {
     align-items: center;
     background-color: #0d1117;
 }
+* ::before ::after {
+    box-sizing: border-box;
+}
 .register {
     width: 340px;
     margin: 0 auto !important;
+    padding-bottom: 5px;
 }
 .register-panel {
     background-color: #161b22;
@@ -37,8 +41,9 @@ body {
 .return-to-signin {
     margin: 0 auto !important;
     width: 85%;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    text-align: right;
+    padding: 5px;
 }
 .span-return {
     text-align: right;
@@ -92,4 +97,14 @@ label {
     margin-bottom: 5px;
     text-align: left;
     font-weight: 400;
+}
+.main-application {
+    width: 100%;
+    height: 90%;
+}
+.sub-text {
+    float: right;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
 }
